@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('content')
     <h3 class="text-center">Create Todo</h3>
     <form action="{{ route('todos.store') }}" method="post">
